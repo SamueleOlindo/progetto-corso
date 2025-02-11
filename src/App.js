@@ -1,19 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Login from './Login';
+import logo from "./logo.svg";
+import "./App.css";
+import Login from "./Login";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>ciao sono un app react</h1>
+        <Login />
       </header>
     </div>
   );
 }
 
 export default App;
-
 
 /**
  * 📌 LEZIONE COMPLETA: INSTALLAZIONE GIT, GITHUB E UTILIZZO SU VSCODE
@@ -142,4 +141,3 @@ export default App;
  *
  * Così puoi gestire tutto direttamente da VSCode! 🚀
  */
-
